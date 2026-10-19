@@ -154,16 +154,6 @@ src/kpi_creator/
 sample_data/telecom_kpi_sample.csv
 ```
 
-## Publish a new version to GitHub
-
-Files >100 MB (like the built `.exe` or exported reports) cannot be committed normally — attach them to a **Release**:
-
-1. Push source changes: `git add . && git commit -m "..." && git push`
-2. On the repo page → **Releases → Draft a new release**
-3. Tag: `v1.0` (+ Create new tag on publish)
-4. Drag in `dist\current\KPI Pivot Chart Creator.exe` (and any exported sample workbook)
-5. **Publish release**
-
 ---
 
 *v1.0 — KPI Pivot Chart Creator*

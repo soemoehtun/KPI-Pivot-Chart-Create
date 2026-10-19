@@ -117,17 +117,6 @@ Add interactive Excel slicers (e.g. Technology, Region) that filter the whole da
 - **Compare preset** – e.g. *Previous month vs last month*, *Day − 7*.
 - **Custom** – shows PRE and POST columns with Year (`2026`), Month (`Oct`), Day (`17`) pickers listing only values present in the data.
 
-### 7. Generate
-
-Click **Generate Excel Report**. The status line tracks the pipeline with a live percentage:
-
-| % | Stage |
-| --- | --- |
-| 5% | Preparing data |
-| 25% | Calculating the summary |
-| 35–92% | Building PivotTables, charts, and slicers with Excel |
-| 97–100% | Finishing the workbook |
-
 When the dialog shows *"Pivot report created"*, the file is ready at the chosen output folder.
 
 ## How the Excel output is built

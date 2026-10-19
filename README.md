@@ -135,8 +135,6 @@ When the dialog shows *"Pivot report created"*, the file is ready at the chosen 
 | *"Excel PivotTable generation failed."* | Close other Excel dialogs, then retry; the dialog shows the last Excel error lines. |
 | Wrong dates / no valid dates | Re-check the Date column choice; only rows with parseable dates are used and the rest are excluded. |
 | `.xlsb` fails to load | `python -m pip install pyxlsb` |
-| A report hangs >30 min | Generation times out after 1800 s automatically. |
-| Exe won't start on another PC | Rebuild with `build_exe.bat` on a machine with the same Windows version to bundle matching runtimes. |
 
 ## Project layout
 
